@@ -37,7 +37,7 @@ This is a DNA Mutation API, built with Node.js and MongoDB, that detects if a hu
 In the `.env` file, you need to provide two MongoDB URIs:
 
 - `DB_URI`: This will be the URI for the production database.
-- `TEST_DB_URI`: This will be the URI for the test database.
+- `TEST_DB_URI`: This will be the URI for testing purposes (mandatory).
 
 Example:
 
