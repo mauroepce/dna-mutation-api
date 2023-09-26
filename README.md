@@ -12,7 +12,7 @@ This is a DNA Mutation API, built with Node.js and MongoDB, that detects if a hu
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/dna-mutation-api.git
+    git clone git@github.com:mauroepce/dna-mutation-api.git
     ```
 
 2. Navigate to the project directory:
@@ -31,6 +31,20 @@ This is a DNA Mutation API, built with Node.js and MongoDB, that detects if a hu
     ```
 
 5. Start the MongoDB service if it's not already running.
+
+## MongoDB URIs
+
+In the `.env` file, you need to provide two MongoDB URIs:
+
+- `DB_URI`: This will be the URI for the production database.
+- `TEST_DB_URI`: This will be the URI for the test database.
+
+Example:
+
+```bash
+MONGO_URI=mongodb://username:password@your-prod-server/db-name
+TEST_DB_URI=mongodb://username:password@your-test-server/test-db-name
+```
 
 ## Running the Application
 
