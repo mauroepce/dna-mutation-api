@@ -2,6 +2,12 @@
 
 This is a DNA Mutation API, built with Node.js and MongoDB, that detects if a human has a mutation based on their DNA sequence.
 
+## Live Endpoint
+
+The project is deployed and can be tested live. Here is the production URL:
+
+- **Production URL:** [https://dna-mutation-api-production.up.railway.app/](https://dna-mutation-api-production.up.railway.app/)
+
 ## Prerequisites
 
 - Node.js
